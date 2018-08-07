@@ -1,0 +1,54 @@
+<Root type="OR" ref="Web Project">
+  <Page title="Sign in to GitHub · GitHub" ref="Sign">
+    <ObjectGroup ref="Username or email address">
+      <Object frame="" ref="Username or email address">
+        <Property value="login" ref="name" pref="1"/>
+        <Property value="login_field" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='login']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/div/form/div[3]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control input-block" ref="class" pref="6"/>
+        <Property value="#login_field" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password Forgot password?">
+      <Object frame="" ref="Password Forgot password?">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div/div/form/div[3]/input[2]" ref="xpath" pref="5"/>
+        <Property value="form-control form-control input-block" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="commit" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Sign in']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div/div/form/div[3]/input[3]" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary btn-block" ref="class" pref="6"/>
+        <Property value="input[name=&quot;commit&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="GitHub" ref="GitHub">
+    <ObjectGroup ref="Sign out">
+      <Object frame="" ref="Sign out">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='submit'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/header/div/div[2]/div[2]/ul/li[3]/details/details-menu/ul/li[10]/form/button" ref="xpath" pref="5"/>
+        <Property value="dropdown-item dropdown-signout" ref="class" pref="6"/>
+        <Property value="form.logout-form > button.dropdown-item.dropdown-signout" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

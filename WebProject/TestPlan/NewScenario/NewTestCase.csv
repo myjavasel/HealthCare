@@ -1,0 +1,8 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://github.com/login,,
+2,Username or email address,"Click the [<Object>] ",Click,,,Sign
+3,Username or email address,Enter the value [<Data>] in the Field [<Object>],Set,@testmrutyunjay,,Sign
+4,Password Forgot password?,"Click the [<Object>] ",Click,,,Sign
+5,Password Forgot password?,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@c2FjaGluMTAwIw== Enc,,Sign
+6,Sign in,"Click the [<Object>] ",Click,,,Sign
+7,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
